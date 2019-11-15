@@ -10,6 +10,7 @@ brew "yarn" # npm replacement yarn
 brew "zsh" # zsh Shell
 brew "git"
 brew "wget"
+brew "mas"
 # Applications
 cask "iterm2"
 cask "google-chrome"
