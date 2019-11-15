@@ -1,6 +1,4 @@
 #!/bin/sh
-## taking.kr (webmaster@taking.kr)
-## 2018-10-14
 cat <<EOT > /etc/resolv.conf
 # Google DNS
 nameserver 8.8.8.8
