@@ -15,6 +15,7 @@ cask "iterm2"
 cask "google-chrome"
 cask "slack"
 cask "karabiner-elements"
+cask "safeincloud-password-manager"
 cask "visual-studio-code"
 # fonts
 cask 'homebrew/cask-fonts/font-d2coding'
