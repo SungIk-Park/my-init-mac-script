@@ -11,7 +11,7 @@ echo 'DNS Changed OK!'
 brew tap homebrew/bundle
 echo 'Homebrew Installed OK!'
 echo 'Brewfile Package Installing..'
-cd $HOME/Downloads/ && wget BrewFile https://gist.githubusercontent.com/SungIk-Park/e8fc5b361bfd203f375564585b73e9b7/raw/aadcd5db874dcd9ba85b816f98950e0fedc3e8d1/Brewfile
+cd $HOME/Downloads/ && wget BrewFile https://raw.githubusercontent.com/SungIk-Park/my-init-mac-script/master/Brewfile
 brew bundle Brewfile
 echo 'Brewfile Package Installed OK!'
 cat <<EOT >> /etc/shells
