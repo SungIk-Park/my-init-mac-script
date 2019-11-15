@@ -5,7 +5,6 @@ tap "homebrew/bundle"
 # Application Path
 cask_args appdir: "/Applications"
 # Binaries/Libraries
-brew "node"
 brew "yarn" # npm replacement yarn
 brew "zsh" # zsh Shell
 brew "git"
