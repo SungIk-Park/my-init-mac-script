@@ -16,6 +16,10 @@ cat <<EOT >> /etc/shells
 /usr/local/bin/zsh
 EOT
 echo '/usr/local/bin/zsh Added OK!'
+
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+
 chsh -s `which zsh`
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 git clone https://github.com/powerline/fonts.git && ./fonts/install.sh
