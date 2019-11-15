@@ -11,6 +11,7 @@ brew "zsh" # zsh Shell
 brew "git"
 brew "wget"
 # Applications
+cask "iterm2"
 cask "google-chrome"
 cask "slack"
 cask "karabiner-elements"
